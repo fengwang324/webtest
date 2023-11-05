@@ -1,0 +1,104 @@
+/* 
+  锁定表头表格样式，仅适用于IE6/7/8
+  Create by Aries BLOG: http://www.cnblogs.com/sansi/
+
+1 <link href="../product/FixTable.css" rel="Stylesheet" type="text/css" />
+2 <style>form{margin:1px;}</style> 一定要设这个大于0,否则表格会下移
+3 <body bgcolor="#fcfcfc" onLoad="tab.style.height=window.screen.height-258">  看实际减去相应的数，让它高度满而没有滚动条
+4 <form name="theForm" method="post" action="pl_modify_admin.asp" onSubmit="return Juge()">  form要在DIV的上面
+5 <div id=tab class="fixbox">   form要在DIV的上面
+
+6 <table  class="fixtable" width="1200" border="0" align="center" cellpadding="1" cellspacing="0">
+  只有一个class，width可选指定  cellpadding="1"为了靠左不粘边
+
+7   <th class="lockcolumn">No.</th>
+    <th class="lockcolumn">商品名称</th>
+    <th class="lockcolumn" bgcolor="#cca" width="1"></th>  让它固定与非固定有一线分开
+    <th class="thbg">种类</th>
+    ……
+8 
+  <tr Onmouseover="return SetBgColor(this,'#E1E1E1');" Onmouseout="return RestoreBgColor(this,'#FFFFFF');" Onclick="return ClickBgColor(this);"> 
+   <td class="lockcolumn" align="center">1</td>
+   <td class="lockcolumn">电视</td>
+   <td class="lockcolumn" bgcolor="#CCCCCC" width="1"></td>  让它固定与非固定有一线分开
+   <td>222</td>
+   ……
+9 </table>
+  </div>
+  </form>
+*/
+
+.fixbox 
+{
+    border:1px solid #ccc;
+    width:100%; 
+    /*height:150px;*/
+    overflow:auto; 
+    position:relative;
+    z-index:202;
+	padding:0px;
+}
+.fixtable
+{
+	border:1px solid #ccc;
+    /*width:750px;*/
+    z-index:1001;
+    position:relative;
+    overflow:auto;
+    border-spacing:0;
+    border-collapse:collapse;
+    border:0;
+	margin-right:10px;margin-bottom:5px;
+}
+.fixtable tr
+{
+    background-color:#fff;
+}
+.fixtable th 
+{
+    top:expression(this.parentElement.parentElement.parentElement.parentElement.scrollTop - 0);
+    position:relative;
+    z-index:10;
+    /*background:url(headbg.jpg) repeat-x top left;*/
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    height:22px;
+	font-size: 12px;
+    text-align:center;
+}
+.fixtable td
+{
+    height:22px;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+	font-size: 12px;
+}
+th.lockcolumn
+{
+    left:expression(this.parentElement.parentElement.parentElement.parentElement.scrollLeft - 0);        
+    z-index:99;
+    /*width:80px;*/
+	background-color:#cca;
+}
+th.thbg
+{
+	background-color:#cca;
+}
+td.lockcolumn
+{
+    position:relative;
+    left:expression(this.parentElement.parentElement.parentElement.parentElement.scrollLeft - 0);   
+	 
+}
+
+.fullwidth
+{
+    width:100%;
+}
+
+.xscroll
+{
+    overflow-x:hidden;
+}
+
+

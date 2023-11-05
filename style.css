@@ -1,0 +1,158 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style {
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.a_white12:link {
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.a_white12:visited {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.a_white13:hover {
+	font-size: 12px;
+	color: #FFFF00;
+}
+.a_white13:link {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.a_white13:visited {
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+.a_white13:hover {
+	font-size: 13px;
+	color: #FFFF00;
+	font-weight: bold;
+	text-decoration: none;
+}
+.z_white13 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.z_gray12 {
+	font-size: 12px;
+	color: #999999;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+.a_black13:link {
+	font-size: 13px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.a_black13:visited {
+	font-size: 13px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.a_black13:hover {
+	font-size: 13px;
+	color: #CC3300;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.a_black12:link {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.a_black12:visited {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.a_black12:hover {
+	font-size: 12px;
+	color: #000099;
+	text-decoration: none;
+}
+.z_black14 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.b_round {
+	border: 1px solid #CCCCCC;
+}
+.b_top_gray {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+.z_black12 {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+.z_black13 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+.b_f {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #333333;
+}
+.b_fgd {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #ffffff;
+font-size: 12px;
+color: #ffffff;
+line-height:20px;
+}
+
+.a_khjz:link {
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.a_khjz:visited {
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.a_khjz:hover {
+	font-size: 14px;
+	color: #990000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.a_khjzwz {
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.a_khjzgy {
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+	line-height:20px;
+
+}

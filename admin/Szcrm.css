@@ -1,0 +1,120 @@
+A:visited {
+	COLOR: #0033FF; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #9999cc; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #0033FF; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #9999cc; TEXT-DECORATION: none
+}
+TD {
+	COLOR: #000000; FONT-SIZE: 14px; TEXT-DECORATION: none;
+}
+DIV {
+	COLOR: #000000; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.large4 {
+	FONT-SIZE: 16pt; FONT-WEIGHT: bold
+}
+.large9 {
+	FONT-SIZE: 14pt; FONT-WEIGHT: bold
+}
+.form {
+	BACKGROUND-ATTACHMENT: scroll; BACKGROUND-COLOR: #ffffff; BACKGROUND-POSITION: 0% 50%; BACKGROUND-REPEAT: repeat; 
+	BORDER-BOTTOM: #a5a5ad 1px solid; BORDER-LEFT: #a5a5ad 1px solid; BORDER-RIGHT: #a5a5ad 1px solid; 
+	BORDER-TOP: #a5a5ad 1px solid; COLOR: #666666; FONT-SIZE: 14px
+}
+.select1 {
+	BACKGROUND-COLOR: #d7e7ea; COLOR: #355f66; FONT-SIZE: 14px
+}
+select{
+	width=130;BACKGROUND-COLOR: #F1FCF4; BORDER-BOTTOM: #56D877 1px groove; BORDER-LEFT: #336699 1px groove; 
+	BORDER-RIGHT: #56D877 1px groove; BORDER-TOP: #336699 1px groove; COLOR: #000000; FONT-FAMILY: "宋体";
+	 FONT-SIZE: 14px;width=150px;
+}
+input {
+	BACKGROUND-COLOR: #fafafa; BORDER-BOTTOM: #56D877 1px groove; BORDER-LEFT: #666699 1px groove; 
+	BORDER-RIGHT: #56D877 1px groove; BORDER-TOP: #666699 1px groove; COLOR: #000000; FONT-FAMILY: "宋体"; 
+	FONT-SIZE: 14px;height:21px;
+}
+.input1 {
+	BACKGROUND-COLOR: #FDEEDB; BORDER-BOTTOM: #FF0000 1px groove; BORDER-LEFT: #FF0000 1px groove; 
+	BORDER-RIGHT: #FF0000 1px groove; BORDER-TOP: #FF0000 1px groove; COLOR: #000000; FONT-FAMILY: "宋体"; 
+	FONT-SIZE: 14px;
+}
+
+.input2 {
+	BACKGROUND-COLOR: #FFFFDF; BORDER-BOTTOM: #56D877 1px groove; BORDER-LEFT: #336699 1px groove; 
+	BORDER-RIGHT: #56D877 1px groove; BORDER-TOP: #336699 1px groove; COLOR: #000000; FONT-FAMILY: "宋体"; 
+	FONT-SIZE: 14px;height:21px;
+}
+.inputshoft {width=100px;FONT-SIZE: 14px;}
+
+.inputblue {
+	BACKGROUND-COLOR: #BDDEEE; BORDER-BOTTOM: #FF0000 1px groove; BORDER-LEFT: #FF0000 1px groove; 
+	BORDER-RIGHT: #FF0000 1px groove; BORDER-TOP: #FF0000 1px groove; COLOR: #000000; FONT-FAMILY: "宋体"; 
+	FONT-SIZE: 14px;height=21px;
+}
+.inputred {
+	BACKGROUND-COLOR: #FFB786; BORDER-BOTTOM: #FF0000 1px groove; BORDER-LEFT: #FF0000 1px groove; 
+	BORDER-RIGHT: #FF0000 1px groove; BORDER-TOP: #FF0000 1px groove; COLOR: #000000; FONT-FAMILY: "宋体"; 
+	FONT-SIZE: 14px;height=21px;
+}
+.inputblue0 {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #FF0000 1px groove; BORDER-LEFT: #FF0000 1px groove; 
+	BORDER-RIGHT: #FF0000 1px groove; BORDER-TOP: #FF0000 1px groove; COLOR: #000000; FONT-FAMILY: "宋体"; 
+	FONT-SIZE: 14px;
+}
+
+.inputblue22 {
+    border-left: solid 1px #336699;
+    border-top: solid 1px #336699;
+    border-right: solid 1px #666666;
+    border-bottom: solid 1px #666666;
+    font-family: 'Arial', 'Helvetica';
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: hand;
+    background-color: #003366;
+	height=24px;
+}
+
+
+
+.select2 {  font-family: "宋体"; font-size: 9pt; color: black; border-color: black black black; border-style: solid; 
+	border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; 
+	BACKGROUND-COLOR: #F1FCF4;}
+.tableborder{
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; 
+	BORDER-TOP: #cccccc 1px solid;FONT-FAMILY: "宋体"; FONT-SIZE: 14px;
+}
+.tablehead
+{
+	background-color:#B4EDC2; COLOR:#FFFFFF; text-align:center;   FONT-SIZE: 14px;color :#FFFFFF;
+    FONT-FAMILY: Arial,宋体，Times New Roman
+}
+.titlehead
+{
+	background-color:#cccccc; COLOR:#FFFFFF; text-align:left;   FONT-SIZE: 14px;color :#333333;
+    FONT-FAMILY: Arial,宋体，Times New Roman
+}
+.border {
+	BORDER-BOTTOM: #336699 1px solid; BORDER-LEFT: #336699 1px solid; BORDER-RIGHT: #336699 1px solid; BORDER-TOP: #336699 1px solid
+}
+.bordergreen {
+	BORDER-BOTTOM: #5BD77D 1px solid; BORDER-LEFT:#5BD77D 1px solid; BORDER-RIGHT:#5BD77D 1px solid; BORDER-TOP:#5BD77D 1px solid
+}
+BODY {
+	COLOR: #000000; 
+	FONT-SIZE: 14px; 
+	TEXT-DECORATION: none; 
+	MARGIN-LEFT:0; 
+	MARGIN-TOP:0;
+	background-color:ffffff; 
+	BORDER-RIGHT: white 0px outset;
+	LINE-HEIGHT: 14px;
+}

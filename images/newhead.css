@@ -1,0 +1,89 @@
+BODY {
+	font-size:12px;
+}
+a{font-size:12px;}
+
+#AllSort {
+	BORDER-RIGHT: #bbbbbb 1px solid;  BORDER-TOP: #bbbbbb 0px solid; BORDER-LEFT: #bbbbbb 1px solid;BORDER-BOTTOM: #bbbbbb 1px solid;  Z-INDEX: 200; 
+	MARGIN-BOTTOM: 6px;MARGIN-right: 0px;  PADDING-TOP: 8px;PADDING-BOTTOM: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; 
+	BACKGROUND: #fffff5;WIDTH: 201px;  POSITION: relative; TEXT-ALIGN: left
+}
+#AllSort H3 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; WIDTH: 190px; COLOR: #025fa8; LINE-HEIGHT: 22px; PADDING-TOP: 3px; HEIGHT: 22px
+}
+#AllSort H3 A:link {
+	COLOR: #d6290b
+}
+#AllSort H3 A:visited {
+	COLOR: #d6290b
+}
+
+#AllSort DL {
+	OVERFLOW: hidden; WIDTH: 198px
+}
+.onlytwo{
+	PADDING-LEFT: 8px; PADDING-top: 2px; PADDING-BOTTOM:3px; 
+}
+#AllSort DT {
+	PADDING-LEFT: 8px; PADDING-RIGHT: 2px; BACKGROUND: url(../images/jo_item.gif) no-repeat 192px -140px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; 
+	WIDTH: 195px; CURSOR: default; LINE-HEIGHT: 24px; PADDING-TOP: 3px; HEIGHT: 24px
+}
+#AllSort DT SPAN {
+	PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: right; OVERFLOW: hidden; WIDTH: 140px; COLOR: #999; HEIGHT: 21px
+}
+ HTML #AllSort DT SPAN {
+	PADDING-RIGHT: 4px
+}
+#AllSort .Dis {
+	DISPLAY: block
+}
+#AllSort .noDis {
+	DISPLAY: none
+}
+#AllSort .curr {
+	BORDER-TOP: #959595 1px solid; BACKGROUND: url(../images/jo_line_bg.jpg) #fff repeat-x 0px -478px; PADDING-BOTTOM: 4px; 
+	WIDTH: 190px; LINE-HEIGHT: 19px; HEIGHT: 19px
+}
+#AllSort .curr SPAN {
+	DISPLAY: none
+}
+#AllSort DD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 9px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 190px; CURSOR: default; PADDING-TOP: 5px
+}
+#AllSort DD SPAN {
+	DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: url(../images/jo_item.gif) no-repeat 0px -143px; FLOAT: left; WIDTH: 93px
+}
+#AllSort DIV SPAN {
+	DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: url(../images/jo_item.gif) no-repeat 0px -143px; FLOAT: left; WIDTH: 93px
+}
+
+
+.viewall {
+	PADDING-RIGHT: 8px; BORDER-TOP: #e1e1e1 1px dotted; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; PADDING-TOP: 6px; TEXT-ALIGN: right
+}
+.pop_wrap {
+	PADDING-RIGHT: 3px; MARGIN-TOP: 0px; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 999; BACKGROUND: url(../images/shadow_04.gif) no-repeat left top; 
+	LEFT: 181px; PADDING-BOTTOM: 3px; WIDTH: 196px; PADDING-TOP: 0px; POSITION: absolute
+}
+.pop {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 13px; PADDING-TOP: 15px; PADDING-BOTTOM: 13px;
+	WIDTH: 200px; LINE-HEIGHT: 24px; BACKGROUND: url(../images/jo_line1.gif) #fff no-repeat 0px -780px;  OVERFLOW: hidden;  
+	BORDER-LEFT: #959595 0px solid; BORDER-BOTTOM: #959595 1px solid; BORDER-RIGHT: #959595 1px solid; BORDER-TOP: #959595 1px solid; 
+}/*将上面的WIDTH200改为300或更大,可分三、四等列,第三级分类很多的话,可以这样修改*/
+.huangkuang {
+	 border-bottom:#e7ca96 solid 1px;
+	 border-left:#e7ca96 solid 1px; 
+	 border-right:#e7ca96 solid 1px;
+}
+/**/
+.title_huang {
+	font-size: 14px;
+	font-weight: bold;
+	color: #d6290b;
+	margin-left:15px;
+	line-height: 24px;}
+
+.pic1{MARGIN-TOP: -117px;MARGIN-left:0px}
+.pic3{MARGIN-TOP: -90px;MARGIN-left:0px}
+.pic2{padding-top:6px}
+

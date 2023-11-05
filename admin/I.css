@@ -1,0 +1,51 @@
+BODY {
+	
+}
+input {
+      	BORDER-RIGHT: #666666 1px solid;BORDER-TOP: #666666 1px solid; height:20px;FONT-SIZE: 10pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #f5f5f5;
+}
+.input2 {
+      	BORDER-RIGHT: #666666 1px solid;BORDER-TOP: #666666 1px solid; height:20px;FONT-SIZE: 10pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #cccccc;FONT-SIZE: 10pt; FONT-WEIGHT: bold;height:24px;
+}
+.border {
+	BORDER-BOTTOM: #336699 1px solid; BORDER-LEFT: #336699 1px solid; BORDER-RIGHT: #336699 1px solid; BORDER-TOP: #336699 1px solid
+}
+
+.border5 {
+	BORDER-BOTTOM: #cccccc 0px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 0px solid
+}
+.input3 {
+      	BORDER-RIGHT: #666666 1px solid;BORDER-TOP: #666666 0px solid; height:23px;FONT-SIZE: 10pt; BORDER-LEFT: #666666 0px solid; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #bbbbbb;padding-top: 4px;
+}
+.text { font-size: 12px; line-height: 160%;font-family: "宋体"}
+.text1 { font-size: 12px; text-decoration: none ;line-height:180%;font-family: "宋体"}
+.large { font-size: 12px;line-height: 160%;font-family: "宋体"}
+a { text-decoration: none;color: #000000;font-size: 12px}
+a:hover { color: #FF0000; text-decoration: none;}
+td { font-size: 12px; line-height: 140%;color: #2D2D2D;font-family: "宋体"}
+a:active {font-family: "宋体";font-size: 12px;font-weight: normal;}
+a:link {font-family: "宋体";font-size: 12px;line-height: 160%;text-decoration: none;}
+a:visited {font-family: "宋体";font-size: 12px;line-height: 160%;text-decoration: none;}
+{ font-size: 12px; color: #333333;font-family: "宋体"}
+
+#tabcss{
+	BORDER-COLLAPSE: collapse;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #dddddd;
+	border-left-color: #dddddd;
+}
+#tabcss td {
+	line-height: 24px;
+	padding-left: 10px;
+	color: #333333;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #dddddd;
+	border-bottom-color: #dddddd;
+}
+

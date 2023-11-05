@@ -1,0 +1,21 @@
+.a1 {
+	font-size: 9pt;
+	line-height: 1.5;
+	color: #333333;
+	text-decoration: none;
+}
+a:link {
+	font-size: 9pt;
+	color: #0000ff;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 9pt;
+	color: #0000ff;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 9pt;
+	color: #999999;
+	text-decoration: none;
+}

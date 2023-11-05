@@ -1,0 +1,116 @@
+
+
+BODY {margin:0 auto; BACKGROUND-COLOR: #ffffff;} 
+
+/*
+BODY {margin:0 auto; background:url(images/bg_all.png) scroll center top transparent; background-repeat:repeat-y; background-color:#fafafa;} 
+
+BODY {margin:0 auto;background-image: url(images/bg88.jpg);background-attachment:fixed;background-repeat:repeat-x; background-position:top center;}  
+
+body {margin:0 auto;background:url(images/bg89.jpg) no-repeat scroll center top transparent;padding-top:60px;  }
+*/
+
+
+input {
+      	BORDER-RIGHT: #666666 1px solid;BORDER-TOP: #666666 1px solid; height:20px;FONT-SIZE: 10pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #fafafa;
+}
+.input2 {
+      	BORDER-RIGHT: #666666 1px solid;BORDER-TOP: #666666 1px solid; height:20px;FONT-SIZE: 10pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #cccccc; FONT-WEIGHT: bold;
+}
+.input3 {
+      	BORDER-RIGHT: #666666 2px solid;BORDER-TOP: #666666 0px solid;BORDER-LEFT: #666666 0px solid; BORDER-BOTTOM: #666666 2px solid; height:23px;FONT-SIZE: 10pt;  FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #cccccc;padding-top: 4px;padding-left: 3px;
+}
+.border {
+	BORDER-BOTTOM: #336699 1px solid; BORDER-LEFT: #336699 1px solid; BORDER-RIGHT: #336699 1px solid; BORDER-TOP: #336699 1px solid
+}
+.border {
+	BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 1px solid; BORDER-RIGHT: #eeeeee 1px solid; BORDER-TOP: #eeeeee 1px solid
+}
+.border5 {
+	BORDER-BOTTOM: #cccccc 0px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 0px solid
+}
+.border5 {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid
+}
+
+.kindbg {
+	background-color: #f5f5f5; 
+}
+
+.kindtext { font-size: 13pt; line-height: 30px;font-family: "微软雅黑","宋体"; font-weight:bold; color:#999999; }
+
+.kindlinebg {
+	background-color: #CC9900; 
+}
+
+.kindtab {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 0px solid
+}
+.weitab {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid
+}
+
+
+.text { font-size: 12px; line-height: 160%;font-family: "宋体"}
+.text1 { font-size: 12px; text-decoration: none ;line-height:180%;font-family: "宋体"}
+.large { font-size: 14px;line-height: 160%;font-family: "宋体"}
+
+
+td { font-size: 12px; line-height: 140%;color: #2D2D2D;font-family: "宋体"}
+
+a {color: #000000;text-decoration: underline;}
+a:link {line-height: 150%;text-decoration: none;}
+a:visited {line-height: 150%;text-decoration: none;}
+a:active {text-decoration: underline;}
+a:hover { color: #FF0000; text-decoration: underline;}
+
+A.hui:link {
+	FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.hui:visited {
+	FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.hui:hover {
+	FONT-SIZE: 14px; COLOR: #f1f1f1; TEXT-DECORATION: underline
+}
+A.hui:active {
+	FONT-SIZE: 14px; COLOR: #fefefe; TEXT-DECORATION: none
+}
+.dot {
+	FONT-WEIGHT: normal; FONT-SIZE: 6px; COLOR: #000000
+}
+.img1 {
+	BORDER-RIGHT: #e1e1e1 1px solid; BORDER-TOP: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; BORDER-BOTTOM: #e1e1e1 1px solid
+}
+.nowprice {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #f00; FONT-FAMILY: 'Century Gothic'; LETTER-SPACING: -1px; TEXT-DECORATION: none
+}
+.oldprice {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #666666
+}
+
+
+
+/*index.asp div的对齐宽度  边框  和周边元素的距离  内容与本框的距离  超过框长度直动隐藏,要加<NOBR>*/ 
+.line_orange {
+	FLOAT: center; WIDTH: 260px; CLEAR: both;
+	BORDER-TOP: #fbb623 0px solid;BORDER-BOTTOM: #fbb623 0px solid; BORDER-LEFT: #fbb623 0px solid;BORDER-RIGHT: #fbb623 0px solid; 
+	MARGIN: 0px; 
+	PADDING-TOP: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px;
+	overflow: hidden; text-overflow:ellipsis;
+}
+/*去掉UL的边 */ 
+.line_orange UL { 
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px;  BORDER-RIGHT-WIDTH: 0px;
+	PADDING-TOP: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px;PADDING-BOTTOM: 0px; MARGIN: 0px;
+}
+/*显示图片123456 */ 
+.line_orange UL.num {
+	MARGIN-TOP: 3px; PADDING-LEFT: 20px; BACKGROUND: url(images/no_bg.gif) no-repeat 3px 2px;
+}
+/*不显示LI点 */ 
+.line_orange LI { 
+	HEIGHT: 23px; LIST-STYLE-TYPE: none;
+}
+
+.linkpic{border:#f7f7f7 1px solid;}
